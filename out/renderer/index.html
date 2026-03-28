@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HAWAI Projects</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval';
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' https://fonts.gstatic.com;
+      img-src 'self' data: 
+        https://i.ytimg.com 
+        https://img.youtube.com 
+        https://res.cloudinary.com
+        https://cdn.cloudflare.steamstatic.com
+        https://cdn2.steamgriddb.com 
+        https://cdn3.steamgriddb.com;
+      connect-src 'self' ws: http:;
+    "
+  />
+    <script type="module" crossorigin src="./assets/index-DXGcayz1.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BPHG5rEq.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
