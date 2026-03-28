@@ -1,0 +1,27 @@
+{
+  "name": "hawai-projects",
+  "productName": "HAWAI Projects",
+  "version": "1.0.5",
+  "description": "An Electron application with React",
+  "main": "./out/main/index.js",
+  "author": "HAWAI",
+  "homepage": "https://electron-vite.org",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.2",
+    "@electron-toolkit/utils": "^4.0.0",
+    "adm-zip": "^0.5.16",
+    "crypto": "^1.0.1",
+    "electron-updater": "^6.3.9",
+    "firebase": "^12.8.0",
+    "prop-types": "^15.8.1",
+    "react-router-dom": "^7.13.0",
+    "systeminformation": "^5.30.6",
+    "vdf": "^0.0.2"
+  },
+  "devDependencies": {
+    "electron": "^31.0.2"
+  }
+}

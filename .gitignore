@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+out/
+.env
+.DS_Store
+*.log
+*.7z
+*.asar
+*.exe
