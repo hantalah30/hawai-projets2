@@ -2,7 +2,7 @@
   "name": "hawai-projects",
   "productName": "HAWAI Projects",
   "version": "1.0.5",
-  "description": "An Electron application with React",
+  "description": "An Electron application with React ",
   "main": "./out/main/index.js",
   "author": "HAWAI",
   "homepage": "https://electron-vite.org",
